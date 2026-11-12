@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en" data-lang="en" data-title-en="Privacy Policy · Office Reader" data-title-uk="Політика конфіденційності · Office Reader">
+<html lang="en" data-lang="en" data-title-en="Privacy Policy · Leafold" data-title-uk="Політика конфіденційності · Leafold">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy · Office Reader</title>
-<meta name="description" content="How Office Reader handles your documents and data.">
+<title>Privacy Policy · Leafold</title>
+<meta name="description" content="How Leafold handles your documents and data.">
 <link rel="icon" href="img/mark.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,7 @@
 <body>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="./"><img src="img/mark.svg" alt="">Office Reader</a>
+    <a class="brand" href="./"><img src="img/mark.svg" alt="">Leafold</a>
     <nav>
       <a class="link" href="terms.html"><span lang="en">Terms</span><span lang="uk">Умови</span></a>
       <div class="lang" role="group" aria-label="Language">
@@ -29,126 +29,142 @@
 <main class="wrap">
 <article class="doc" lang="en">
   <h1>Privacy Policy</h1>
-  <p class="date">Effective: 29 October 2026</p>
-  <p>Office Reader is a mobile app for Android and iOS that opens office documents, scans paper and recognizes text. This policy explains what data the app processes, where it is kept and how you control it. The app is owned and developed by Yurii Bulan, Ukraine ("we"). Questions about your data: <a href="mailto:bulan.yurij@gmail.com">bulan.yurij@gmail.com</a>.</p>
+  <p class="date">Effective: 12 November 2026</p>
+  <p>Leafold (formerly Office Reader) is a mobile app for Android and iOS that opens documents, scans paper to PDF and recognizes text. This policy explains what data the app processes, where it is kept and how you control it. The app is owned and developed by Yurii Bulan, Ukraine ("we"). Questions about your data: <a href="mailto:bulan.yurij@gmail.com">bulan.yurij@gmail.com</a>.</p>
 
   <div class="summary">
     <strong>In short</strong>
     <ul>
       <li>There is no account and no server of ours. Your documents, scans and recognized text stay on your device.</li>
-      <li>The app shows no ads, has no analytics, does not track you across apps and does not sell data.</li>
-      <li>Files leave the app only when you send them somewhere yourself (Share, Print, "Open in another app").</li>
+      <li>The app shows no ads, has no analytics of its own, does not track you across apps and does not sell data.</li>
+      <li>On Android, the scanner and QR reader come from Google Play services, which can send Google technical diagnostics about how these features run. They do not include your documents or images.</li>
+      <li>Files leave the app only when you send them somewhere yourself (Share, Print, "Open in another app", a backup you export).</li>
     </ul>
   </div>
 
   <h2>Data the app processes</h2>
   <div class="table-wrap"><table>
     <tr><th>Data</th><th>Purpose</th><th>Stored on</th></tr>
-    <tr><td>Documents on your device and in folders you add, files you open from other apps</td><td>Listing, viewing, searching, converting</td><td>Your device; the app reads them where they are, and copies files received from other apps into its own "Imported" folder</td></tr>
-    <tr><td>Camera images and photos you pick</td><td>Making scans and PDFs</td><td>Your device</td></tr>
-    <tr><td>Recognized text and word positions</td><td>Copying text, TXT files, searchable PDFs</td><td>Your device</td></tr>
+    <tr><td>Documents on your device and in folders you add, files you open from other apps, files inside ZIP archives</td><td>Listing, viewing, searching, converting, PDF tools</td><td>Your device. The app reads files where they are; files received from other apps are copied into its own "Imported" folder; results of PDF tools go to its "Edited" folder</td></tr>
+    <tr><td>Camera images and photos you pick</td><td>Making scans and PDFs</td><td>Your device ("Scans" folder)</td></tr>
+    <tr><td>Recognized text and word positions</td><td>Copying text, TXT and DOCX files, searchable PDFs</td><td>Your device</td></tr>
     <tr><td>Your drawn signature (the last one)</td><td>Signing PDFs again without redrawing</td><td>Your device only; excluded from iCloud and Android backups; delete it any time with "Delete and draw a new one"</td></tr>
-    <tr><td>Library index: names, sizes, dates, favourites, recent files, search history, thumbnails</td><td>Running the Files screen</td><td>Your device</td></tr>
-    <tr><td>Settings (language, theme), onboarding status, daily counters for free limits</td><td>Running the app</td><td>Your device</td></tr>
+    <tr><td>Library index: names, sizes, dates, favourites, recent files, reading positions, bookmarks, search history, thumbnails</td><td>Running the Files screen and the readers</td><td>Your device</td></tr>
+    <tr><td>Names of recent scans shown in widgets and shortcuts</td><td>Home-screen widgets, Quick Settings tile, iOS controls</td><td>Your device; excluded from backups</td></tr>
+    <tr><td>Settings (language, theme, app lock), onboarding status, daily counters for free limits</td><td>Running the app</td><td>Your device</td></tr>
   </table></div>
 
   <h2>Permissions</h2>
   <ul>
-    <li><strong>Files and storage.</strong> On Android the app asks to read documents on your phone; you may instead add individual folders. On iOS you choose files and folders in the system picker. Access is used only to show and open your documents.</li>
-    <li><strong>Camera.</strong> Used only while you scan.</li>
-    <li><strong>Photos.</strong> Used only for the photos you pick to turn into a PDF.</li>
+    <li><strong>Files and storage.</strong> On Android the app can ask for "All files access" to list the documents on your phone and SD card. It reads names, sizes and dates to build its list, opens a file's content only when you open or work on it, and changes or deletes a file only when you ask. You may decline and add individual folders or pick single files instead. On iOS you choose files and folders in the system picker.</li>
+    <li><strong>Camera.</strong> Used only while you scan or read a QR code. On Android the camera screens belong to Google Play services, so the app itself does not hold the camera permission.</li>
+    <li><strong>Photos.</strong> Only the photos you pick, to turn them into a PDF, recognize text or read a code.</li>
+    <li><strong>Biometrics or screen lock.</strong> Used by App lock if you turn it on. Your operating system checks your fingerprint, face or code; the app learns only whether the check passed.</li>
   </ul>
 
   <h2>Processing on the device</h2>
-  <p>Document rendering, scanning and text recognition run on your device. On Android, the document scanner is provided by Google Play services and runs on the phone; text is recognized by a built-in engine. On iOS, the scanner and text recognition are Apple's VisionKit and Vision frameworks. The QR scanner reads codes on the device; on Android its camera screen is a Google Play services module that Google Play downloads once, the first time it is used. Your documents are not sent to us or to these providers by the app.</p>
+  <p>Document rendering, scanning, text recognition and code reading run on your device. On Android, text is recognized by a built-in engine (Tesseract) with Ukrainian and English models inside the app. On iOS, the scanner, text recognition and code reading use Apple's VisionKit, Vision and camera frameworks, which run on the device. Office documents and web pages are shown in a viewer that cannot load anything from the internet. The app does not send your documents, scans or recognized text to us or to anyone else.</p>
+
+  <h2>Google Play services on Android</h2>
+  <p>The document scanner and the camera QR scanner are Google Play services modules. Google Play downloads them the first time you use them, which needs a connection. While they run, Google Play services may send Google technical diagnostics such as device and app information, the feature used, performance metrics, error codes and a per-installation identifier, to keep these features working and improve them. This happens under Google's own process and the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>. The code reader for photos is a Google ML Kit library inside the app; it can queue similar diagnostics, but the Android app has no internet permission, so it cannot send them. We do not receive any of this data. In Google Play's Data safety section we list it as diagnostics and device identifiers, collected for app functionality and analytics and not shared.</p>
 
   <h2>When data leaves your device</h2>
   <ul>
     <li><strong>Your actions.</strong> When you share, print or open a file in another app, it goes where you choose in the system sheet.</li>
-    <li><strong>Purchases.</strong> Premium is paid through Google Play or the App Store. We never see your payment details; the app receives only the purchase status from the store.</li>
+    <li><strong>Backup you export.</strong> "Back up library" makes a ZIP file with your library and settings. It is not encrypted; keep it where only you can reach it. You choose where to save or send it.</li>
+    <li><strong>Feedback.</strong> "Send feedback" opens your mail app with the app version and system version filled in. Nothing is sent until you send the e-mail yourself.</li>
     <li><strong>Links.</strong> The Terms and Privacy links open in your browser.</li>
-    <li><strong>Backups.</strong> Your operating system may include app data in device backups according to its own settings.</li>
+    <li><strong>Device backups.</strong> Android's backup and iCloud may include the app's data, such as documents in its own folders, according to your system settings. These backups go to your Google or Apple account; we cannot read them. Your drawn signature and widget data are excluded.</li>
+    <li><strong>Purchases.</strong> Premium is not on sale yet. When it is, it will be paid through Google Play or the App Store; we will not see your payment details, and the app will receive only the purchase status from the store.</li>
   </ul>
 
   <h2>Legal basis</h2>
-  <p>We process data only to provide the features you use (performance of the service you ask for). As the data stays on your device, we do not have access to it.</p>
+  <p>We process data only to provide the features you use (performance of the service you ask for). Because the data stays on your device, we have no access to it. Diagnostics collected by Google Play services are processed by Google as described in its policy.</p>
 
   <h2>Retention and deletion</h2>
-  <p>Data stays until you delete it. Deleting a file in the app removes it from your device. Temporary files (received copies, scan pages, previews) are cleaned automatically. Uninstalling the app removes its data, including the "Imported", "Scans" and "Edited" folders it created, unless your system keeps them.</p>
+  <p>Data stays until you delete it. Deleting a file in the app removes it from your device. Temporary files (received copies, scan pages, previews, shared copies) are cleaned automatically, at the latest about a day later. Uninstalling the app removes its data, including the "Imported", "Scans" and "Edited" folders it created, unless your system keeps them.</p>
 
   <h2>Your rights</h2>
   <p>You can learn what data is processed, get a copy, correct it, delete it, restrict processing and object to it. Since the data lives on your device, you do most of this yourself. For anything else write to <a href="mailto:bulan.yurij@gmail.com">bulan.yurij@gmail.com</a>. You may also complain to the Ukrainian Parliament Commissioner for Human Rights or to the data-protection authority of the EU country where you live.</p>
 
   <h2>Children</h2>
-  <p>Office Reader is not directed at children under 13 (under 16 in the EU). We do not knowingly collect their data.</p>
+  <p>Leafold is meant for people aged 13 and over (16 and over in the EU) and is not directed at children. We do not knowingly collect children's data.</p>
 
   <h2>Changes</h2>
-  <p>If we change this policy, for example to add advertising, analytics or cloud features, we will update this page and the date above before the change reaches the app, and ask for your consent in the app where the law requires it.</p>
+  <p>If we change this policy, for example to add purchases, advertising, analytics or cloud features, we will update this page and the date above before the change reaches the app, and ask for your consent in the app where the law requires it.</p>
 </article>
 
 <article class="doc" lang="uk">
   <h1>Політика конфіденційності</h1>
-  <p class="date">Набирає чинності: 29 жовтня 2026 року</p>
-  <p>Office Reader — мобільний застосунок для Android та iOS, який відкриває офісні документи, сканує папір і розпізнає текст. Ця політика пояснює, які дані він обробляє, де вони зберігаються і як ними керувати. Власник і розробник застосунку — Юрій Булан (Yurii Bulan), Україна («ми»). Питання щодо даних: <a href="mailto:bulan.yurij@gmail.com">bulan.yurij@gmail.com</a>.</p>
+  <p class="date">Набирає чинності: 12 листопада 2026 року</p>
+  <p>Leafold (раніше Office Reader) — мобільний застосунок для Android та iOS, який відкриває документи, сканує папір у PDF і розпізнає текст. Ця політика пояснює, які дані він обробляє, де вони зберігаються і як ними керувати. Власник і розробник застосунку — Юрій Булан (Yurii Bulan), Україна («ми»). Питання щодо даних: <a href="mailto:bulan.yurij@gmail.com">bulan.yurij@gmail.com</a>.</p>
 
   <div class="summary">
     <strong>Коротко</strong>
     <ul>
       <li>Немає облікового запису й нашого сервера. Ваші документи, скани й розпізнаний текст залишаються на пристрої.</li>
-      <li>Застосунок не показує рекламу, не має аналітики, не відстежує вас між застосунками й не продає дані.</li>
-      <li>Файли залишають застосунок лише тоді, коли ви самі їх кудись надсилаєте («Поділитися», «Друк», «Відкрити в іншому застосунку»).</li>
+      <li>Застосунок не показує рекламу, не має власної аналітики, не відстежує вас між застосунками й не продає дані.</li>
+      <li>На Android сканер і QR-зчитувач надають Сервіси Google Play, які можуть надсилати Google технічну діагностику про роботу цих функцій. Ваших документів і зображень у ній немає.</li>
+      <li>Файли залишають застосунок лише тоді, коли ви самі їх кудись надсилаєте («Поділитися», «Друк», «Відкрити в іншому застосунку», експортована резервна копія).</li>
     </ul>
   </div>
 
   <h2>Які дані обробляє застосунок</h2>
   <div class="table-wrap"><table>
     <tr><th>Дані</th><th>Навіщо</th><th>Де зберігаються</th></tr>
-    <tr><td>Документи на пристрої й у доданих папках, файли, відкриті з інших застосунків</td><td>Список, перегляд, пошук, конвертація</td><td>Ваш пристрій; застосунок читає їх на місці, а файли з інших застосунків копіює у власну папку «Імпортовані»</td></tr>
-    <tr><td>Знімки камери й вибрані фото</td><td>Створення сканів і PDF</td><td>Ваш пристрій</td></tr>
-    <tr><td>Розпізнаний текст і положення слів</td><td>Копіювання тексту, TXT-файли, PDF з пошуком</td><td>Ваш пристрій</td></tr>
+    <tr><td>Документи на пристрої й у доданих папках, файли, відкриті з інших застосунків, файли в ZIP-архівах</td><td>Список, перегляд, пошук, конвертація, інструменти PDF</td><td>Ваш пристрій. Застосунок читає файли на місці; файли з інших застосунків копіює у власну папку «Імпортовані»; результати інструментів PDF зберігає в папку «Edited»</td></tr>
+    <tr><td>Знімки камери й вибрані фото</td><td>Створення сканів і PDF</td><td>Ваш пристрій (папка «Scans»)</td></tr>
+    <tr><td>Розпізнаний текст і положення слів</td><td>Копіювання тексту, файли TXT і DOCX, PDF з пошуком</td><td>Ваш пристрій</td></tr>
     <tr><td>Ваш намальований підпис (останній)</td><td>Повторний підпис PDF без малювання</td><td>Лише ваш пристрій; не потрапляє в резервні копії iCloud та Android; видалити будь-коли кнопкою «Видалити й намалювати новий»</td></tr>
-    <tr><td>Індекс бібліотеки: назви, розміри, дати, обрані, недавні, історія пошуку, мініатюри</td><td>Робота екрана «Файли»</td><td>Ваш пристрій</td></tr>
-    <tr><td>Налаштування (мова, тема), стан онбордингу, денні лічильники безкоштовних лімітів</td><td>Робота застосунку</td><td>Ваш пристрій</td></tr>
+    <tr><td>Індекс бібліотеки: назви, розміри, дати, обрані, недавні, місця читання, закладки, історія пошуку, мініатюри</td><td>Робота екрана «Файли» й читалок</td><td>Ваш пристрій</td></tr>
+    <tr><td>Назви останніх сканів у віджетах і ярликах</td><td>Віджети, плитка швидких налаштувань, елементи керування iOS</td><td>Ваш пристрій; не потрапляють у резервні копії</td></tr>
+    <tr><td>Налаштування (мова, тема, блокування), стан онбордингу, денні лічильники безкоштовних лімітів</td><td>Робота застосунку</td><td>Ваш пристрій</td></tr>
   </table></div>
 
   <h2>Дозволи</h2>
   <ul>
-    <li><strong>Файли й сховище.</strong> На Android застосунок просить доступ до документів на телефоні; замість цього можна додати окремі папки. На iOS ви обираєте файли й папки в системному вікні. Доступ використовується лише для показу й відкриття ваших документів.</li>
-    <li><strong>Камера.</strong> Лише під час сканування.</li>
-    <li><strong>Фото.</strong> Лише ті фото, які ви обираєте для перетворення в PDF.</li>
+    <li><strong>Файли й сховище.</strong> На Android застосунок може попросити «Доступ до всіх файлів», щоб показати документи на телефоні й SD-картці. Він читає назви, розміри й дати для списку, відкриває вміст файлу лише тоді, коли ви з ним працюєте, і змінює чи видаляє файл лише на ваш запит. Можна відмовитися й додати окремі папки або вибрати окремі файли. На iOS ви обираєте файли й папки в системному вікні.</li>
+    <li><strong>Камера.</strong> Лише під час сканування чи зчитування QR-коду. На Android екрани камери належать Сервісам Google Play, тому сам застосунок дозволу на камеру не має.</li>
+    <li><strong>Фото.</strong> Лише ті фото, які ви обираєте, щоб зробити PDF, розпізнати текст чи прочитати код.</li>
+    <li><strong>Біометрія або блокування екрана.</strong> Використовується функцією «Блокування застосунку», якщо ви її ввімкнете. Відбиток, обличчя чи код перевіряє операційна система; застосунок дізнається лише, чи перевірка пройшла.</li>
   </ul>
 
   <h2>Обробка на пристрої</h2>
-  <p>Відображення документів, сканування й розпізнавання тексту відбуваються на вашому пристрої. На Android сканер документів надають сервіси Google Play, і він працює на телефоні; текст розпізнає вбудований рушій. На iOS сканер і розпізнавання тексту — це фреймворки Apple VisionKit і Vision. QR-сканер зчитує коди на пристрої; на Android його екран камери — модуль сервісів Google Play, який Google Play завантажує один раз, під час першого використання. Застосунок не надсилає ваші документи ні нам, ні цим постачальникам.</p>
+  <p>Відображення документів, сканування, розпізнавання тексту й зчитування кодів відбуваються на вашому пристрої. На Android текст розпізнає вбудований рушій (Tesseract) з українською й англійською моделями всередині застосунку. На iOS сканер, розпізнавання тексту й зчитування кодів використовують фреймворки Apple VisionKit, Vision і камери, які працюють на пристрої. Офісні документи й вебсторінки показуються в переглядачі, який не може нічого завантажувати з інтернету. Застосунок не надсилає ваші документи, скани чи розпізнаний текст ні нам, ні комусь іншому.</p>
+
+  <h2>Сервіси Google Play на Android</h2>
+  <p>Сканер документів і QR-сканер камери — це модулі Сервісів Google Play. Google Play завантажує їх під час першого використання, і для цього потрібне з'єднання. Під час роботи Сервіси Google Play можуть надсилати Google технічну діагностику: відомості про пристрій і застосунок, використану функцію, показники продуктивності, коди помилок та ідентифікатор встановлення, щоб ці функції працювали й удосконалювалися. Це відбувається в процесі самої Google і за <a href="https://policies.google.com/privacy?hl=uk" rel="noopener">Політикою конфіденційності Google</a>. Зчитувач кодів із фото — бібліотека Google ML Kit усередині застосунку; вона може ставити подібну діагностику в чергу, але застосунок на Android не має дозволу на інтернет, тож надіслати її не може. Ми цих даних не отримуємо. У розділі «Безпека даних» у Google Play ми вказуємо їх як діагностику й ідентифікатори пристрою, що збираються для роботи функцій і аналітики та не передаються третім сторонам.</p>
 
   <h2>Коли дані залишають пристрій</h2>
   <ul>
     <li><strong>Ваші дії.</strong> Коли ви ділитеся файлом, друкуєте його чи відкриваєте в іншому застосунку, він потрапляє туди, куди ви оберете в системному меню.</li>
-    <li><strong>Покупки.</strong> Premium оплачується через Google Play або App Store. Ми не бачимо платіжних даних; застосунок отримує від магазину лише статус покупки.</li>
+    <li><strong>Резервна копія, яку ви експортуєте.</strong> «Зберегти бібліотеку» створює ZIP-файл із бібліотекою й налаштуваннями. Він не зашифрований; зберігайте його там, де доступ маєте лише ви. Куди його зберегти чи надіслати, обираєте ви.</li>
+    <li><strong>Відгук.</strong> «Надіслати відгук» відкриває вашу пошту з версією застосунку й системи в тексті листа. Нічого не надсилається, доки ви самі не надішлете лист.</li>
     <li><strong>Посилання.</strong> Посилання на Умови й Політику відкриваються у вашому браузері.</li>
-    <li><strong>Резервні копії.</strong> Операційна система може включати дані застосунку в резервні копії пристрою згідно зі своїми налаштуваннями.</li>
+    <li><strong>Резервні копії пристрою.</strong> Резервне копіювання Android та iCloud можуть включати дані застосунку, зокрема документи в його власних папках, згідно з налаштуваннями системи. Ці копії зберігаються у вашому обліковому записі Google чи Apple; ми не можемо їх прочитати. Намальований підпис і дані віджетів до них не потрапляють.</li>
+    <li><strong>Покупки.</strong> Premium поки не продається. Коли з'явиться, оплата йтиме через Google Play або App Store; ми не бачитимемо платіжних даних, а застосунок отримуватиме від магазину лише статус покупки.</li>
   </ul>
 
   <h2>Підстава обробки</h2>
-  <p>Ми обробляємо дані лише для надання функцій, якими ви користуєтеся (виконання послуги, яку ви просите). Оскільки дані залишаються на вашому пристрої, ми не маємо до них доступу.</p>
+  <p>Ми обробляємо дані лише для надання функцій, якими ви користуєтеся (виконання послуги, яку ви просите). Оскільки дані залишаються на вашому пристрої, ми не маємо до них доступу. Діагностику, яку збирають Сервіси Google Play, Google обробляє згідно зі своєю політикою.</p>
 
   <h2>Зберігання й видалення</h2>
-  <p>Дані зберігаються, доки ви їх не видалите. Видалення файлу в застосунку видаляє його з пристрою. Тимчасові файли (отримані копії, сторінки сканів, мініатюри) прибираються автоматично. Видалення застосунку видаляє його дані, зокрема створені ним папки «Імпортовані», «Scans» та «Edited», якщо система їх не зберігає.</p>
+  <p>Дані зберігаються, доки ви їх не видалите. Видалення файлу в застосунку видаляє його з пристрою. Тимчасові файли (отримані копії, сторінки сканів, мініатюри, копії для надсилання) прибираються автоматично, найпізніше приблизно через добу. Видалення застосунку видаляє його дані, зокрема створені ним папки «Імпортовані», «Scans» та «Edited», якщо система їх не зберігає.</p>
 
   <h2>Ваші права</h2>
   <p>Ви маєте право знати, які дані обробляються, отримати їх копію, виправити, видалити, обмежити обробку й заперечити проти неї. Оскільки дані зберігаються на вашому пристрої, більшість цього ви робите самі. З інших питань напишіть на <a href="mailto:bulan.yurij@gmail.com">bulan.yurij@gmail.com</a>. Ви також можете звернутися до Уповноваженого Верховної Ради України з прав людини або до наглядового органу країни ЄС, де проживаєте.</p>
 
   <h2>Діти</h2>
-  <p>Office Reader не призначений для дітей до 13 років (до 16 років у ЄС). Ми свідомо не збираємо їхніх даних.</p>
+  <p>Leafold призначений для людей від 13 років (від 16 років у ЄС) і не орієнтований на дітей. Ми свідомо не збираємо даних дітей.</p>
 
   <h2>Зміни</h2>
-  <p>Якщо ми змінимо політику, наприклад додамо рекламу, аналітику чи хмарні функції, ми оновимо цю сторінку й дату вище до того, як зміна з'явиться в застосунку, і попросимо вашої згоди в застосунку, де цього вимагає закон.</p>
+  <p>Якщо ми змінимо політику, наприклад додамо покупки, рекламу, аналітику чи хмарні функції, ми оновимо цю сторінку й дату вище до того, як зміна з'явиться в застосунку, і попросимо вашої згоди в застосунку, де цього вимагає закон.</p>
 </article>
 </main>
 
 <footer>
   <div class="wrap">
-    <span class="copy">© 2026 Office Reader</span>
+    <span class="copy">© 2026 Leafold</span>
     <a href="./"><span lang="en">Home</span><span lang="uk">Головна</span></a>
     <a href="terms.html"><span lang="en">Terms of Use</span><span lang="uk">Умови використання</span></a>
     <a href="mailto:bulan.yurij@gmail.com">bulan.yurij@gmail.com</a>
