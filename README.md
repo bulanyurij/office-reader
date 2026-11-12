@@ -1,6 +1,6 @@
-# Office Reader site
+# Leafold site
 
-Landing page, Privacy Policy and Terms of Use for the Office Reader app, served by GitHub Pages.
+Landing page, Privacy Policy and Terms of Use for the Leafold app (formerly Office Reader), served by GitHub Pages.
 
 - https://bulanyurij.github.io/office-reader/
 - https://bulanyurij.github.io/office-reader/privacy.html
